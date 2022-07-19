@@ -49,3 +49,16 @@
 .pp{
     padding-top: 7px;
 }
+.ppp{
+    color: white;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.valid{
+    box-sizing: border-box;
+    height: 40px;
+    width: 45%;
+    background-color: blue;
+    margin-left: 40px;
+    border-radius: 10px;
+}
