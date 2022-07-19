@@ -1,0 +1,47 @@
+.container {
+    background-color: grey;
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.nav {
+    background-color: blue;
+    box-sizing: border-box;
+    height: 75px;
+}
+.deals{
+    background-color: rgba(82, 82, 185, 0.911);
+    box-sizing: border-box;
+    width: 235px;
+    height: 50px;
+    color: white;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 15px;
+    
+    
+}
+.deals>p{
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+.prices{
+    margin-left: 40px;
+}
+.container2{
+    box-sizing: border-box;
+    height: 250px;
+    width: 100%;
+    background-color: lightslategray;
+    border: 1px solid white;
+}
+.included{
+    box-sizing: border-box;
+    height: 20%;
+    width: 15%;
+    background-color: blue;
+    margin-left: 40px;
+    margin-top: 15px;
+
+}
