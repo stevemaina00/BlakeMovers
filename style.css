@@ -159,3 +159,9 @@ a {
     background-color: aqua;
     padding-bottom: 20%;
 }
+
+.ft_text{
+    margin: 30px;
+    padding-top: 30px;
+    width: 30%;
+}
