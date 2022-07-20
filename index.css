@@ -70,7 +70,7 @@
     padding-top: 10px;
     font-size: larger;
 }
-button{
+.bt{
     height: 50px;
     width: 250px;
     background-color: red;
@@ -84,12 +84,12 @@ button{
 }
 a:link {
     color: green;
-    text-decoration: none;
+    
   }
   
   a:visited {
     color: pink;
-    text-decoration: none;
+    
   }
   
   a:hover {
@@ -106,7 +106,8 @@ a:link {
     height: 550px;
     width: 100%;
     display: flex;
-  }
+    
+    }
   
   .quote>h2{
     color:  white;
@@ -229,5 +230,19 @@ a:link {
     display: block;
     margin: -10px -20px;
     padding: 10px 20px;
+  }
+  .B, .C, .D, .E{
+    margin-left: 100PX;
+  
+    
+  }
+  .but{
+    color: white;
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    margin: 40px;
+    margin-left: 100px;
   }
   
