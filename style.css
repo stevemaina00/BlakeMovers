@@ -10,6 +10,16 @@ a {
     color: #fff;
 }
 
+h1,h2,h3{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h4{
+    font-style: italic;
+    font-size: 20px;
+}
 
 .nav{
     padding-top: 15px;
@@ -29,6 +39,7 @@ a {
 .nav-ul li {
     display: inline-block;
     align-items: center;
+    list-style-type: none;
     
 }
 .nav-ul li {
@@ -49,6 +60,7 @@ a {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    list-style-type: none;
     
     
 
@@ -156,12 +168,48 @@ a {
 }
 
 .ft{
-    background-color: aqua;
-    padding-bottom: 20%;
+    background-color: rgb(172, 168, 168);
+    padding-bottom: 50px;
+    display: flex;
 }
 
 .ft_text{
     margin: 30px;
-    padding-top: 30px;
+    
     width: 30%;
+}
+
+.icons{
+    display: flex;
+}
+
+.svg{
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
+
+.ft_col{
+  padding-left: 20%;
+  padding-top: 30px;
+  width: 30%;
+  /* display: inline-block; */
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.ls{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#txt{
+    font-size: 20px;
+}
+
+.hours{
+    font-weight: bold;
+    font-size: 20px;
 }
