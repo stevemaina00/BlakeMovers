@@ -31,7 +31,7 @@
 }
 .container2{
     box-sizing: border-box;
-    height: 250px;
+    height: 300px;
     width: 100%;
     background-color: lightslategray;
     border: 1px solid white;
@@ -56,11 +56,13 @@
 }
 .valid{
     box-sizing: border-box;
-    height: 40px;
-    width: 40%;
+    height: 50px;
+    width: 45%;
     background-color: blue;
     margin-left: 40px;
     border-radius: 10px;
+    
+
 }
 .valid>p{
     text-align: center;
@@ -68,3 +70,44 @@
     padding-top: 10px;
     font-size: larger;
 }
+button{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+    border-radius: 150px;
+    margin-right: 5px;
+    margin-left: 650px;
+    margin-top: -50px;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+}
+a:link {
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: blue;
+  }
+  
+  a:active {
+    color: black;
+    text-decoration: underline;
+  }
+  .quote{
+    box-sizing: border-box;
+    background-color: grey;
+    height: 500px;
+    width: 100%;
+  }
+  .quote>h2{
+    color: white;
+    margin-left: 30px;
+    padding-top: 120px;
+  }
