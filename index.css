@@ -57,8 +57,14 @@
 .valid{
     box-sizing: border-box;
     height: 40px;
-    width: 45%;
+    width: 40%;
     background-color: blue;
     margin-left: 40px;
     border-radius: 10px;
+}
+.valid>p{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: larger;
 }
