@@ -101,22 +101,21 @@ a {
 .sec_mover{
     display: flex;
     margin-left: 40px;
+    /* justify-content: space-between; */
 
 }
 
-/* .pic{
-    height: 10px;
-    width: 3px;
-    margin-right: 10px;
-} */
+#hd{
+    text-align: center;
+}
 
 #im{
-    height: 80%;
-    padding: 8px 5px;
-    width: 90%;
-    float: right;
-    border-radius: 0px;
-
+    height: 450px;
+    width: 400px;
+    float: left;
+    border: #fff;
+    margin-right: 10px;
+     padding-left: 100px;
 }
 
 .btn{
@@ -131,6 +130,32 @@ a {
     text-align: center;
     color: blue;
 }
-.pic{
+
+
+.sec_pic{
+    margin-left: 10%;
+    justify-content: space-between;
+    padding-right: 40px;
     display: flex;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding-top: 0%;
+    margin-top: 0px;
+}
+
+.img_desc{
+    width: 25%;
+}
+
+#stream{
+    border-radius: 50%;
+}
+
+.ft{
+    background-color: aqua;
+    padding-bottom: 20%;
 }
