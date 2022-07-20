@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 .blake{
     color: black;
@@ -21,7 +22,7 @@ body{
 
 .sec1{
     background-color: rgb(154, 127, 127);
-    padding: 0;
+    padding: 10px;
     margin: 0;
     
 
@@ -30,15 +31,16 @@ body{
 .sec2{
     background-color: rgb(57, 57, 97);
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 a{
-    padding-left: 2.5em;
-    padding-right: 2.5em;
-    padding-top 1em ;
-    padding-bottom :1em ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px ;
+    padding-bottom :5px ;
     font-size: 20px;
     color: white;
+    justify-content: space-between;
 }
 
 .btn{
