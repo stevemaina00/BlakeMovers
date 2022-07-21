@@ -224,7 +224,8 @@ h1,h2,h3{
 .ft_col{
   padding-left: 20%;
   padding-top: 30px;
-  width: 30%;
+  width: 100%;
+  margin-right: 100px;
   /* display: inline-block; */
 }
 body {
@@ -348,6 +349,7 @@ ul li{
 .ls{
     padding-top: 5px;
     padding-bottom: 10px;
+    margin-right: 400px;
 }
 
 #txt{
@@ -357,4 +359,9 @@ ul li{
 .hours{
     font-weight: bold;
     font-size: 20px;
+    margin-left: 35px;
+}
+.ft_col>h1{
+    margin-left:35px;
+
 }

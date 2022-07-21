@@ -253,6 +253,17 @@ a:link {
     text-align: center;
     border-radius: 20px;
 }
+#log{
+  background-color: purple;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 30px;
+  font-size: large;
+  font-weight: bold;
+  
+  
+}
 .nav-ul {
     display: flex;
     justify-content: space-between;
