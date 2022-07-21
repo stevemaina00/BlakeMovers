@@ -21,6 +21,10 @@ h1,h2,h3{
     font-size: 20px;
 }
 
+.nav-hover{
+    color: white;
+}
+
 .nav{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -33,6 +37,7 @@ h1,h2,h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
     
 }
 .links li,
@@ -46,6 +51,7 @@ h1,h2,h3{
     margin-left: 20px;
     margin-right: 20px;
     font-size: 20px;
+    color: white;
 }
 .nav-hover:hover {
     color: #ED661F;
@@ -208,6 +214,119 @@ h1,h2,h3{
   width: 30%;
   /* display: inline-block; */
 }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+   background-image: url(../IEBC/hvd7.jpg)
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: mediumpurple;
+    color: white;
+  }
+ 
+  .container {
+    padding: 16px;
+    background-color: turquoise;
+    
+  }
+  
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  .registerbtn {
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 0px solid ;
+    cursor: pointer;
+    width: 10%;
+    font-size: 20px;
+    transition: 1.0s ease;
+    background-color: purple;
+    border-radius: 50px;
+  }
+
+  .registerbtn a{
+    color: white;
+    font-weight: bold;
+  }
+  
+  .registerbtn:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+  
+      header{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../IEBC/havard.jpg);
+  min-height: max-content;
+  background-size: cover
+  }
+  
+      .topnav {
+        overflow: hidden;
+        border-radius: 20px;
+        float: right;
+        justify-content: space-between;
+      }
+      
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 1.0s ease;
+      }
+      
+      .topnav a:hover {
+        background-color: mediumvioletred;
+        color: black
+      
+      }
+      
+      .topnav a.active {
+        background-color: #04AA6D;
+        color: white;
+        box-sizing: 50px;
+      }
 
 ul li{
     list-style-type: none;
