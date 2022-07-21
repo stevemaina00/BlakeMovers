@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+list a:hoover{
+    color: brown;
+}
+.blake{
+    color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-size: 35px;
+}
+
+
+.sec1{
+    background-color: rgb(154, 127, 127);
+    padding: 10px;
+    margin: 0;
+    aligh
+    
+
+}
+
+.sec2{
+    background-color: rgb(57, 57, 97);
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    align-items:center;
+    
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px ;
+    padding-bottom :5px ;
+    font-size: 20px;
+    color: white;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    padding-left:15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.p1{
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.p2{
+    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hsec1{
+    color: rgb(13, 13, 227);
+    background-color: rgba(196, 191, 184, 0.898);
+    font-weight: lighter;
+    width:max-content;
+    position: relative;
+    left: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hsec2{
+    background-color: blue;
+    color: white;
+    font-weight: lighter;
+    width: max-content;
+    position: relative;
+    left: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+
+}
