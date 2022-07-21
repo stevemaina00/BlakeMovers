@@ -168,8 +168,8 @@ h1,h2,h3{
 }
 
 .ft{
-    background-color: rgb(172, 168, 168);
-    padding-bottom: 50px;
+    background-color: purple;
+    padding-bottom: 10px;
     display: flex;
 }
 
